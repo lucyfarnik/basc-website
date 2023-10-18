@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Bristol AI Safety Centre',
-  tagline: 'BASC uwu',
+  title: 'Bristol AI Safety Centre (BASC)',
+  tagline: 'Accelerating AI safety research',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -38,17 +38,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -86,38 +78,12 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+            label: 'Blog',
+            to: '/blog',
           },
           {
-            title: 'About us',
-            items: [
-              {
-                label: 'About',
-                to: '/about',
-              },
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/lucyfarnik/basc-website',
-              },
-            ],
+            label: 'About',
+            to: '/about',
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Bristol AI Safety Centre. Built with Docusaurus.`,

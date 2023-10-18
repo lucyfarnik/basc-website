@@ -8,6 +8,29 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  min-height: 80vh;
+
+  background: linear-gradient(42deg, #08a1f9, #dd4cfa, #c7929e, #afa2f8, #71dfe9, #b356c5);
+  background-size: 400% 400%;
+  animation: gradientBackground 10s ease-in-out infinite;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 50% 50%;
+  }
+  25% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  75% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 50% 50%;
+  }
 }
 
 @media screen and (max-width: 996px) {
@@ -16,8 +39,69 @@
   }
 }
 
-.buttons {
+.heroBody {
+  max-width: 800px;
+  margin: 4rem auto 2rem auto;
+  padding: 0 1rem
+}
+
+.heroButtons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section {
+  overflow: hidden;
+  min-height: 40vh;
+}
+
+.sectionContainer {
+  display: flex;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section .textHalf {
+  max-width: 400px;
+  margin: 0 4rem;
+  font-size: 1.2rem;
+}
+
+.section .imageHalf {
+  max-width: 400px;
+  margin: 0 1rem;
+}
+
+.section .imageHalf img {
+  width: 100%;
+  height: auto;
+  border-radius: 4rem;
+}
+
+.interp {
+  background-color: #1b1b1d;
+  color: #e3e3e3;
+}
+
+.interpContainer {
+  justify-content: flex-end;
+}
+
+.interp .textHalf {
+  text-align: right;
+}
+
+.policy {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.policyContainer {
+  justify-content: flex-start;
 }
