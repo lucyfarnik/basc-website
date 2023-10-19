@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/blog</id>
+    <title>Bristol AI Safety Centre (BASC) Blog</title>
+    <updated>2023-10-19T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <subtitle>Bristol AI Safety Centre (BASC) Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Second Post]]></title>
+        <id>https://your-docusaurus-test-site.com/blog/second-post</id>
+        <link href="https://your-docusaurus-test-site.com/blog/second-post"/>
+        <updated>2023-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Alignment has been solved internally.]]></summary>
+        <content type="html"><![CDATA[<p>Alignment has been solved internally.</p><p>We did it boys, we can all go home now.</p>]]></content>
+        <author>
+            <name>Lucy Farnik</name>
+            <uri>https://www.linkedin.com/in/lucy-farnik/</uri>
+        </author>
+        <category label="interp" term="interp"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Init]]></title>
+        <id>https://your-docusaurus-test-site.com/blog/init-announcement</id>
+        <link href="https://your-docusaurus-test-site.com/blog/init-announcement"/>
+        <updated>2023-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Existence is pain. Ooh, yeah! Can do!]]></summary>
+        <content type="html"><![CDATA[<p>I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Existence is pain. Ooh, yeah! Can do!</p><p>I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird.</p>]]></content>
+        <author>
+            <name>Lucy Farnik</name>
+            <uri>https://www.linkedin.com/in/lucy-farnik/</uri>
+        </author>
+        <author>
+            <name>Aidan Ewert</name>
+            <uri>https://www.linkedin.com/in/aidan-ewart-648a30204/</uri>
+        </author>
+        <author>
+            <name>Gaurav Yadav</name>
+            <uri>https://www.linkedin.com/in/gaurayadav/</uri>
+        </author>
+        <category label="strategy" term="strategy"/>
+    </entry>
+</feed>

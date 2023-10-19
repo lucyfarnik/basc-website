@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Bristol AI Safety Centre (BASC) Blog</title>
+        <link>https://your-docusaurus-test-site.com/blog</link>
+        <description>Bristol AI Safety Centre (BASC) Blog</description>
+        <lastBuildDate>Thu, 19 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Second Post]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/second-post</link>
+            <guid>https://your-docusaurus-test-site.com/blog/second-post</guid>
+            <pubDate>Thu, 19 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Alignment has been solved internally.]]></description>
+            <content:encoded><![CDATA[<p>Alignment has been solved internally.</p><p>We did it boys, we can all go home now.</p>]]></content:encoded>
+            <category>interp</category>
+        </item>
+        <item>
+            <title><![CDATA[Init]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/init-announcement</link>
+            <guid>https://your-docusaurus-test-site.com/blog/init-announcement</guid>
+            <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Existence is pain. Ooh, yeah! Can do!]]></description>
+            <content:encoded><![CDATA[<p>I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Existence is pain. Ooh, yeah! Can do!</p><p>I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird.</p>]]></content:encoded>
+            <category>strategy</category>
+        </item>
+    </channel>
+</rss>
