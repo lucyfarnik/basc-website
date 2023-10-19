@@ -3,6 +3,8 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import InpterImage from '@site/static/img/interp.png';
+import PolicyImage from '@site/static/img/policy.png';
 import styles from './index.module.css';
 
 function HeroHeader() {
@@ -44,7 +46,7 @@ function InterpInfo() {
           </p>
         </div>
         <div className={styles.imageHalf}>
-          <img src="/img/interp.png" alt="Interpretability" />
+          <img src={InpterImage} alt="Interpretability" />
         </div>
       </div>
     </div>
@@ -56,7 +58,7 @@ function PolicyInfo() {
     <div className={clsx(styles.section, styles.policy)}>
       <div className={clsx('container', styles.sectionContainer, styles.policyContainer)}>
         <div className={styles.imageHalf}>
-          <img src="/img/policy.png" alt="AI Policy" />
+          <img src={PolicyImage} alt="AI Policy" />
         </div>
         <div className={styles.textHalf}>
           <h2>AI Policy research</h2>
