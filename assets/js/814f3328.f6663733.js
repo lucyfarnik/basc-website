@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbasc_website=self.webpackChunkbasc_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Second Post","permalink":"/blog/second-post"},{"title":"Init","permalink":"/blog/init-announcement"}]}')}}]);

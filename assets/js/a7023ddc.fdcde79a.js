@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbasc_website=self.webpackChunkbasc_website||[]).push([[713],{3457:e=>{e.exports=JSON.parse('[{"label":"interp","permalink":"/blog/tags/interp","count":1},{"label":"strategy","permalink":"/blog/tags/strategy","count":1}]')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbasc_website=self.webpackChunkbasc_website||[]).push([[437],{7931:e=>{e.exports=JSON.parse('{"label":"interp","permalink":"/basc-website/blog/tags/interp","allTagsPath":"/basc-website/blog/tags","count":1}')}}]);
