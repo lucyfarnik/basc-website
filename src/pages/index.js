@@ -61,7 +61,7 @@ function PolicyInfo() {
           <img src={PolicyImage} alt="AI Policy" />
         </div>
         <div className={styles.textHalf}>
-          <h2>AI Policy research</h2>
+          <h2>AI policy research</h2>
           <p>
             There is still plenty of low-hanging fruit in the realm of AI policy.
             What does effective regulation aimed at reducing existential risks from
