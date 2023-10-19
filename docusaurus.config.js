@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const tailwind = require('tailwindcss');
+const autoprefixer = require('autoprefixer');
+const { lightTheme, darkTheme } = require('./themes.config');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -41,6 +41,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          // blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,23 +56,23 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Bristol AI Safety Centre',
+        title: 'BASC',
         logo: {
           alt: 'BASC Logo',
           src: 'img/logo.png',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             to: '/about',
             label: 'About',
             position: 'right',
           },
-          {
-            href: 'https://github.com/lucyfarnik/basc-website',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/lucyfarnik/basc-website',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -89,23 +90,30 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Bristol AI Safety Centre. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: lightTheme,
+        darkTheme,
+      },
+      themeConfig: {
+        colorMode: {
+          defaultMode: 'dark',
+          respectPrefersColorScheme: true,
+        },
+        image: 'img/logo.png',
       },
     }),
-    plugins: [
-      async function myPlugin(context, options) {
-        return {
-          name: "docusaurus-tailwindcss",
-          configurePostCss(postcssOptions) {
-            // Appends TailwindCSS and AutoPrefixer.
-            postcssOptions.plugins.push(require("tailwindcss"));
-            postcssOptions.plugins.push(require("autoprefixer"));
-            return postcssOptions;
-          },
-        };
-      },
-    ],
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(tailwind);
+          postcssOptions.plugins.push(autoprefixer);
+          return postcssOptions;
+        },
+      };
+    },
+  ],
 };
 
 module.exports = config;

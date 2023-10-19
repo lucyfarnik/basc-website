@@ -33,12 +33,6 @@
   }
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .heroBody {
   max-width: 800px;
   margin: 4rem auto 2rem auto;
@@ -104,4 +98,23 @@
 
 .policyContainer {
   justify-content: flex-start;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .interp .sectionContainer {
+    flex-direction: column-reverse;
+  }
+
+  .policy .sectionContainer {
+    flex-direction: column;
+  }
+
+  .section .imageHalf img {
+    margin: 0 auto 2rem auto;
+    width: 50%;
+  }
 }

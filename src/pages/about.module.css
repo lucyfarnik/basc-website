@@ -2,7 +2,7 @@
     min-height: 50vh;
     background-color: #9849e9;
     font-size: 2rem;
-    padding: 8rem 0 4rem 0;
+    padding: 8rem 0;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@
 .team {
     min-height: 50vh;
     text-align: center;
-    padding: 2rem 0 4rem 0;
+    padding-top: 2rem;
 }
 
 .team h2 {
@@ -30,6 +30,7 @@
 
 .teamMember {
     width: 16rem;
+    margin-bottom: 4rem;
 }
 
 .teamMember h3 {
