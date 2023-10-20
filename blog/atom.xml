@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lucyfarnik.github.io/basc-website/blog</id>
-    <title>Bristol AI Safety Centre (BASC) Blog</title>
+    <title>BASC Blog</title>
     <updated>2023-10-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lucyfarnik.github.io/basc-website/blog"/>
-    <subtitle>Bristol AI Safety Centre (BASC) Blog</subtitle>
+    <subtitle>BASC Blog</subtitle>
     <icon>https://lucyfarnik.github.io/basc-website/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Second Post]]></title>
