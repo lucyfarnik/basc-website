@@ -1,5 +1,4 @@
 import React from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import AidanImage from '@site/static/img/aidan.jpeg';
 import LucyImage from '@site/static/img/lucy.jpeg';
@@ -45,7 +44,11 @@ const teamInfo = [
   {
     name: 'Gaurav Yadav',
     photo: GauravImage,
-    bio: 'Bigly ADHD',
+    bio: `Gaurav is diving into the world of AI regulation while pursuing a Law
+      Degree at the University of Bristol. Before this, they interned at the Centre
+      for Effective Altruism. Right now, they’re digging deep into a final year
+      project that explores how laws and computing power can better govern AI.
+      Gaurav is also keenly interested in AI policies, both in China and globally.`,
   },
 ];
 
@@ -65,10 +68,9 @@ function Team() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`About us | ${siteConfig.title}`}
+      title="About us"
       description="BASC is a small research group working on AGI safety, interpretability, and policy."
     >
       <AboutHeader />

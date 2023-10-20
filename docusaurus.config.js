@@ -6,7 +6,7 @@ const { lightTheme, darkTheme } = require('./themes.config');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Bristol AI Safety Centre (BASC)',
+  title: 'BASC',
   tagline: 'Accelerating AI safety research',
   favicon: 'img/favicon.ico',
 

@@ -1,19 +1,16 @@
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import InpterImage from '@site/static/img/interp.png';
 import PolicyImage from '@site/static/img/policy.png';
 import styles from './index.module.css';
 
 function HeroHeader() {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
     <div className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        <h1 className="hero__title">Bristol AI Safety Centre (BASC)</h1>
         <p className={clsx('hero__subtitle', styles.heroBody)}>
           We are BASC, a research organization dedicated to preventing existential
           risks and steering the future of AGI towards positive outcomes for
@@ -74,13 +71,8 @@ function PolicyInfo() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
-    <Layout
-      title={siteConfig.title}
-      description="BASC is a small research group working on AGI safety, interpretability, and policy."
-    >
+    <Layout description="BASC is a small research group working on AGI safety, interpretability, and policy.">
       <main>
         <HeroHeader />
         <InterpInfo />

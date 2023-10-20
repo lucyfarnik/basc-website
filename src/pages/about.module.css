@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+
+[data-theme='light'] .aboutHeader {
+    background-color: var(--ifm-color-primary-lightest);
+}
+
 .aboutHeader h1 {
     font-size: 3rem;
     margin-bottom: 1.5rem;
