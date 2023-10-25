@@ -18,7 +18,7 @@ function AboutHeader() {
 
 function TeamMember({ name, photo, email, bio }) {
   return (
-    <div className={styles.teamMember} id={name.split(' ')[0].toLowerCase()}>
+    <div className={styles.teamMember} id={(name || '').split(' ')[0].toLowerCase()}>
       <h3>{name}</h3>
       <img src={photo} alt={name} />
       <p>{bio}</p>
