@@ -1,44 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lucyfarnik.github.io/basc-website/blog</id>
+    <id>https://bristolaisafety.org/blog</id>
     <title>BASC Blog</title>
-    <updated>2023-10-19T00:00:00.000Z</updated>
+    <updated>2023-09-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lucyfarnik.github.io/basc-website/blog"/>
+    <link rel="alternate" href="https://bristolaisafety.org/blog"/>
     <subtitle>BASC Blog</subtitle>
-    <icon>https://lucyfarnik.github.io/basc-website/img/favicon.ico</icon>
+    <icon>https://bristolaisafety.org/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Second Post]]></title>
-        <id>https://lucyfarnik.github.io/basc-website/blog/second-post</id>
-        <link href="https://lucyfarnik.github.io/basc-website/blog/second-post"/>
-        <updated>2023-10-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Alignment has been solved internally.]]></summary>
-        <content type="html"><![CDATA[<p>Alignment has been solved internally.</p><p>We did it boys, we can all go home now.</p>]]></content>
+        <title type="html"><![CDATA[STARC: A General Framework For Quantifying Differences Between Reward Functions]]></title>
+        <id>https://bristolaisafety.org/blog/starc</id>
+        <link href="https://bristolaisafety.org/blog/starc"/>
+        <updated>2023-09-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In order to solve a task using reinforcement learning, it is necessary to first formalise the goal of that task as a reward function. However, for many real-world tasks, it is very difficult to manually specify a reward function that never incentivises undesirable behaviour. As a result, it is increasingly popular to use reward learning algorithms, which attempt to learn a reward function from data. However, the theoretical foundations of reward learning are not yet well-developed. In particular, it is typically not known when a given reward learning algorithm with high probability will learn a reward function that is safe to optimise. This means that reward learning algorithms generally must be evaluated empirically, which is expensive, and that their failure modes are difficult to predict in advance. One of the roadblocks to deriving better theoretical guarantees is the lack of good methods for quantifying the difference between reward functions. In this paper we provide a solution to this problem, in the form of a class of pseudometrics on the space of all reward functions that we call STARC (STAndardised Reward Comparison) metrics. We show that STARC metrics induce both an upper and a lower bound on worst-case regret, which implies that our metrics are tight, and that any metric with the same properties must be bilipschitz equivalent to ours. Moreover, we also identify a number of issues with reward metrics proposed by earlier works. Finally, we evaluate our metrics empirically, to demonstrate their practical efficacy. STARC metrics can be used to make both theoretical and empirical analysis of reward learning algorithms both easier and more principled.]]></summary>
+        <content type="html"><![CDATA[<p>In order to solve a task using reinforcement learning, it is necessary to first formalise the goal of that task as a reward function. However, for many real-world tasks, it is very difficult to manually specify a reward function that never incentivises undesirable behaviour. As a result, it is increasingly popular to use reward learning algorithms, which attempt to learn a reward function from data. However, the theoretical foundations of reward learning are not yet well-developed. In particular, it is typically not known when a given reward learning algorithm with high probability will learn a reward function that is safe to optimise. This means that reward learning algorithms generally must be evaluated empirically, which is expensive, and that their failure modes are difficult to predict in advance. One of the roadblocks to deriving better theoretical guarantees is the lack of good methods for quantifying the difference between reward functions. In this paper we provide a solution to this problem, in the form of a class of pseudometrics on the space of all reward functions that we call STARC (STAndardised Reward Comparison) metrics. We show that STARC metrics induce both an upper and a lower bound on worst-case regret, which implies that our metrics are tight, and that any metric with the same properties must be bilipschitz equivalent to ours. Moreover, we also identify a number of issues with reward metrics proposed by earlier works. Finally, we evaluate our metrics empirically, to demonstrate their practical efficacy. STARC metrics can be used to make both theoretical and empirical analysis of reward learning algorithms both easier and more principled.</p><p>This was authored by Joar Skalse, Lucy Farnik (BASC), Sumeet Ramesh Motwani, Erik Jenner, Adam Gleave, Alessandro Abate.</p><p>You can read the full paper <a href="https://arxiv.org/abs/2309.15257" target="_blank" rel="noopener noreferrer">here</a>.</p>]]></content>
         <author>
             <name>Lucy Farnik</name>
             <uri>https://www.linkedin.com/in/lucy-farnik/</uri>
         </author>
-        <category label="interp" term="interp"/>
+        <category label="Safe RL" term="Safe RL"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Init]]></title>
-        <id>https://lucyfarnik.github.io/basc-website/blog/init-announcement</id>
-        <link href="https://lucyfarnik.github.io/basc-website/blog/init-announcement"/>
-        <updated>2023-10-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Existence is pain. Ooh, yeah! Can do!]]></summary>
-        <content type="html"><![CDATA[<p>I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Existence is pain. Ooh, yeah! Can do!</p><p>I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird. I'm Mr. Meeseeks, look at me! I'm Mr. Meeseeks! Look at me. I'm Mr. Meeseeks! Yes, siree! Meeseeks don't usually have to exist for this long. It's gettin' weird.</p>]]></content>
-        <author>
-            <name>Lucy Farnik</name>
-            <uri>https://www.linkedin.com/in/lucy-farnik/</uri>
-        </author>
+        <title type="html"><![CDATA[Sparse Autoencoders Find Highly Interpretable Features in Language Models]]></title>
+        <id>https://bristolaisafety.org/blog/autoencoders</id>
+        <link href="https://bristolaisafety.org/blog/autoencoders"/>
+        <updated>2023-09-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the roadblocks to a better understanding of neural networks’ internals is polysemanticity, where neurons appear to activate in multiple, semantically distinct contexts. Polysemanticity prevents us from identifying concise, human understandable explanations for what neural networks are doing internally. One hypothesised cause of polysemanticity is superposition, where neural networks represent more features than they have neurons by assigning features to an overcomplete set of directions in activation space, rather than to individual neurons. Here, we attempt to identify those directions, using sparse autoencoders to reconstruct the internal activations of a language model. These autoencoders learn sets of sparsely activating features that are more interpretable and monosemantic than directions identified by alternative approaches, where interpretability is measured by automated methods. Moreover, we show that with our learned set of features, we can pinpoint the features that are causally responsible for counterfactual behaviour on the indirect object identification task (Wang et al., 2022) to a finer degree than previous decompositions. This work indicates that it is possible to resolve superposition in language models using a scalable, unsupervised method. Our method may serve as a foundation for future mechanistic interpretability work, which we hope will enable greater model transparency and steerability.]]></summary>
+        <content type="html"><![CDATA[<p>One of the roadblocks to a better understanding of neural networks’ internals is polysemanticity, where neurons appear to activate in multiple, semantically distinct contexts. Polysemanticity prevents us from identifying concise, human understandable explanations for what neural networks are doing internally. One hypothesised cause of polysemanticity is superposition, where neural networks represent more features than they have neurons by assigning features to an overcomplete set of directions in activation space, rather than to individual neurons. Here, we attempt to identify those directions, using sparse autoencoders to reconstruct the internal activations of a language model. These autoencoders learn sets of sparsely activating features that are more interpretable and monosemantic than directions identified by alternative approaches, where interpretability is measured by automated methods. Moreover, we show that with our learned set of features, we can pinpoint the features that are causally responsible for counterfactual behaviour on the indirect object identification task (Wang et al., 2022) to a finer degree than previous decompositions. This work indicates that it is possible to resolve superposition in language models using a scalable, unsupervised method. Our method may serve as a foundation for future mechanistic interpretability work, which we hope will enable greater model transparency and steerability.</p><p>This was authored by Hoagy Cunningham, Aidan Ewart (BASC), Logan Riggs, Robert Huben and Lee Sharkey.</p><p>You can read the full paper <a href="https://arxiv.org/abs/2309.08600" target="_blank" rel="noopener noreferrer">here</a>.</p>]]></content>
         <author>
             <name>Aidan Ewert</name>
             <uri>https://www.linkedin.com/in/aidan-ewart-648a30204/</uri>
         </author>
+        <category label="Interpretability" term="Interpretability"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How long will reaching a Risk Awareness Moment and CHARTS agreement take?]]></title>
+        <id>https://bristolaisafety.org/blog/risk-awareness-moment</id>
+        <link href="https://bristolaisafety.org/blog/risk-awareness-moment"/>
+        <updated>2023-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This report aims to develop a forecast to an open question from the analysis, ‘Prospects for AI safety agreements between countries’ (Guest, 2023): Is there sufficient time to have a ‘risk awareness moment’ in either the US (along with its allies) and China in place before an international AI safety agreement can no longer meaningfully reduce extinction risks from AI?]]></summary>
+        <content type="html"><![CDATA[<p>This report aims to develop a forecast to an open question from the analysis, ‘Prospects for AI safety agreements between countries’ (Guest, 2023): Is there sufficient time to have a ‘risk awareness moment’ in either the US (along with its allies) and China in place before an international AI safety agreement can no longer meaningfully reduce extinction risks from AI?</p><p>Bottom line: My overall estimate/best guess is that there is at least a 40% chance there will be adequate time to implement a CHARTS agreement before it ceases to be relevant.</p><p>You can read the report in full <a href="https://docs.google.com/document/d/1MLmzULVrksH8IwAmH7wBpOTyU_7BjBAVl6N63v2vvhM/edit" target="_blank" rel="noopener noreferrer">here</a>. A short summary can be found below.</p>]]></content>
         <author>
             <name>Gaurav Yadav</name>
             <uri>https://www.linkedin.com/in/gaurayadav/</uri>
         </author>
-        <category label="strategy" term="strategy"/>
+        <category label="Governance" term="Governance"/>
     </entry>
 </feed>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbasc_website=self.webpackChunkbasc_website||[]).push([[595],{2001:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/safe-rl","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

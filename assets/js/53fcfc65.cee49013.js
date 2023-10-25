@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbasc_website=self.webpackChunkbasc_website||[]).push([[60],{132:e=>{e.exports=JSON.parse('{"permalink":"/basc-website/blog/tags/interp","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
