@@ -46,6 +46,11 @@
     width: 12rem;
     height: 12rem;
     object-fit: cover;
-    margin: 1.5rem auto 1rem auto;
+    margin: 1rem auto;
     border-radius: 2rem;
+}
+
+.email {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
 }

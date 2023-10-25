@@ -16,12 +16,13 @@ function AboutHeader() {
   );
 }
 
-function TeamMember({ name, photo, bio }) {
+function TeamMember({ name, photo, email, bio }) {
   return (
     <div className={styles.teamMember}>
       <h3>{name}</h3>
       <img src={photo} alt={name} />
       <p>{bio}</p>
+      <p className={styles.email}>Contact: <a href={`mailto:${email}`}>{email}</a></p>
     </div>
   );
 }
@@ -30,11 +31,17 @@ const teamInfo = [
   {
     name: 'Aidan Ewart',
     photo: AidanImage,
-    bio: 'Haskel, bruh',
+    email: 'aidanprattewart@gmail.com',
+    bio: `Aidan is researching technical AI alignment, with a particular emphasis
+      on ML interpretability and robustly safe AI to AGI. They are currently pursuing
+      a degree in Mathematics at the University of Bristol, and have collaborated
+      with researchers from Apollo Research and EleutherAI. A recent research project
+      of theirs was cited by the Anthropic interpretability team.`,
   },
   {
     name: 'Lucy Farnik',
     photo: LucyImage,
+    email: 'lucyfarnik@gmail.com',
     bio: `Lucy started coding at age 7 and became a senior developer at a
       tech startup at age 18. She's since switched to AI safety research, and has
       collaborated on her work with researchers from FHI, CHAI, and FAR AI.
@@ -44,6 +51,7 @@ const teamInfo = [
   {
     name: 'Gaurav Yadav',
     photo: GauravImage,
+    email: 'rz21873@bristol.ac.uk',
     bio: `Gaurav is diving into the world of AI regulation while pursuing a Law
       Degree at the University of Bristol. Before this, they interned at the Centre
       for Effective Altruism. Right now, they’re digging deep into a final year
