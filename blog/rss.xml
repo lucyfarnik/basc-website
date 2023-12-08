@@ -4,10 +4,19 @@
         <title>BASC Blog</title>
         <link>https://bristolaisafety.org/blog</link>
         <description>BASC Blog</description>
-        <lastBuildDate>Tue, 26 Sep 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Evaluating Taiwan's Tactics to Safeguard its Semiconductor Assets Against a Chinese Invasion]]></title>
+            <link>https://bristolaisafety.org/blog/taiwan</link>
+            <guid>https://bristolaisafety.org/blog/taiwan</guid>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the following report, we examine the strategies Taiwan may employ to protect both itself and its semiconductor industry.]]></description>
+            <content:encoded><![CDATA[<p>In the following report, we examine the strategies Taiwan may employ to protect both itself and its semiconductor industry. </p><p>We discuss four strategies: 1) Scorch the Fabs - Taiwan threatens or executes the destruction of their fabs to deter invasion or deny their use for China - we conclude that the credibility of this approach is limited and intractable; 2) Sabotage the Fabs - leveraging vulnerabilities in the semiconductor manufacturing process, Taiwan subtly impairs key fabrication equipment - this strategy is suggested to be a last-resort, we consider this approach a more credible alternative to demolition; 3) Boatlift Key Staff - boatlifting personnel possessing tacit knowledge could deny China control of the fabs, the success of this strategy hinges upon the accuracy of the evacuating party to identify irreplaceable personnel and the willingness of said personnel to return if needed - given this logistical challenge, we consider this course of action unlikely, and; 4) Indirect Protection of Semiconductor Assets - while it is probable that sanctions would be imposed following an invasion, and that these sanctions would be economically damaging for all involved, we argue that it is unlikely that such efforts could be effectively maintained. Following this thought, we argue that while an invasion would violate international law, this is likely to be disregarded and unlikely to prevent Chinese aggression.&nbsp;</p><p>Our report represents an attempt to map out the consequences of a Chinese invasion of Taiwan, a topic that appears to be neglected despite its clear significance to the future of AI research.</p><p>This was authored by Gaurav Yadav and Robert Reason.</p><p>You can read the full paper&nbsp;<a target="_blank" href="/assets/files/taiwan-2bfcc399939f0566c45b2dd5516d5a3b.pdf">here</a>.</p>]]></content:encoded>
+            <category>Governance</category>
+        </item>
         <item>
             <title><![CDATA[STARC: A General Framework For Quantifying Differences Between Reward Functions]]></title>
             <link>https://bristolaisafety.org/blog/starc</link>

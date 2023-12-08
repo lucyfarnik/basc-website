@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbasc_website=self.webpackChunkbasc_website||[]).push([[506],{7734:e=>{e.exports=JSON.parse('{"label":"Governance","permalink":"/blog/tags/governance","allTagsPath":"/blog/tags","count":1}')}}]);

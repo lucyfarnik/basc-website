@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbasc_website=self.webpackChunkbasc_website||[]).push([[713],{3457:e=>{e.exports=JSON.parse('[{"label":"Governance","permalink":"/blog/tags/governance","count":2},{"label":"Safe RL","permalink":"/blog/tags/safe-rl","count":1},{"label":"Interpretability","permalink":"/blog/tags/interpretability","count":1}]')}}]);
